@@ -1,0 +1,14 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "calculator web page",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "github.com/gabrielc42",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
