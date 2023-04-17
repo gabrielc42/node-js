@@ -6,7 +6,7 @@ const express = require("express");
 const calculator = express();
 
 calculator.get("/", function (request, response) {
-  response.send("<h1>hiya</h1>");
+  response.sendFile(__dirname + "/index.html");
 });
 
 calculator.listen(3000, function () {
